@@ -31,10 +31,10 @@ import jakarta.xml.bind.annotation.XmlType;
 @XmlType(name = "", propOrder = {
     "employeeId"
 })
-@XmlRootElement(name = "deleteEmployeeRequest", namespace = "http://interfaces.soap.springboot.vkakarla.com")
+@XmlRootElement(name = "deleteEmployeeRequest", namespace = "http://interfaces.demo.example.com")
 public class DeleteEmployeeRequest {
 
-    @XmlElement(namespace = "http://interfaces.soap.springboot.vkakarla.com")
+    @XmlElement(namespace = "http://interfaces.demo.example.com")
     protected long employeeId;
 
     /**

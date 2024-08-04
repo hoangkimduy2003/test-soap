@@ -11,9 +11,9 @@ import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import javax.sql.DataSource;
 
 @Configuration
-@EnableJpaRepositories(basePackages = { "com.vkakarla.springboot.soap.repo" })
-@ComponentScan(value = "com.vkakarla.springboot.soap.*")
-@EntityScan(basePackages = { "com.vkakarla.springboot.soap.entities" })
+@EnableJpaRepositories(basePackages = { "com.example.demo.repo" })
+@ComponentScan(value = "com.example.demo.*")
+@EntityScan(basePackages = { "com.example.demo.entities" })
 public class DataStoreSetup {
 
 	@Value("${spring.datasource.url}")

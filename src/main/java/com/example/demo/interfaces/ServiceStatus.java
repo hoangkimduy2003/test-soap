@@ -28,15 +28,15 @@ import jakarta.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "serviceStatus", namespace = "http://interfaces.soap.springboot.vkakarla.com", propOrder = {
+@XmlType(name = "serviceStatus", namespace = "http://interfaces.demo.example.com", propOrder = {
     "status",
     "message"
 })
 public class ServiceStatus {
 
-    @XmlElement(namespace = "http://interfaces.soap.springboot.vkakarla.com", required = true)
+    @XmlElement(namespace = "http://interfaces.demo.example.com", required = true)
     protected String status;
-    @XmlElement(namespace = "http://interfaces.soap.springboot.vkakarla.com", required = true)
+    @XmlElement(namespace = "http://interfaces.demo.example.com", required = true)
     protected String message;
 
     /**

@@ -1,6 +1,6 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-	xmlns:tns="http://interfaces.soap.springboot.vkakarla.com"
-	targetNamespace="http://interfaces.soap.springboot.vkakarla.com"
+	xmlns:tns="http://interfaces.demo.example.com"
+	targetNamespace="http://interfaces.demo.example.com"
 	elementFormDefault="qualified">
 
 

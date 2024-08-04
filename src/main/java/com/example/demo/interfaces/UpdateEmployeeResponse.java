@@ -18,7 +18,7 @@ import jakarta.xml.bind.annotation.XmlType;
  *   &lt;complexContent&gt;
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType"&gt;
  *       &lt;sequence&gt;
- *         &lt;element name="serviceStatus" type="{http://interfaces.soap.springboot.vkakarla.com}serviceStatus"/&gt;
+ *         &lt;element name="serviceStatus" type="{http://interfaces.demo.example.com}serviceStatus"/&gt;
  *       &lt;/sequence&gt;
  *     &lt;/restriction&gt;
  *   &lt;/complexContent&gt;
@@ -31,10 +31,10 @@ import jakarta.xml.bind.annotation.XmlType;
 @XmlType(name = "", propOrder = {
     "serviceStatus"
 })
-@XmlRootElement(name = "updateEmployeeResponse", namespace = "http://interfaces.soap.springboot.vkakarla.com")
+@XmlRootElement(name = "updateEmployeeResponse", namespace = "http://interfaces.demo.example.com")
 public class UpdateEmployeeResponse {
 
-    @XmlElement(namespace = "http://interfaces.soap.springboot.vkakarla.com", required = true)
+    @XmlElement(namespace = "http://interfaces.demo.example.com", required = true)
     protected ServiceStatus serviceStatus;
 
     /**

@@ -31,7 +31,7 @@ import jakarta.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "employeeInfo", namespace = "http://interfaces.soap.springboot.vkakarla.com", propOrder = {
+@XmlType(name = "employeeInfo", namespace = "http://interfaces.demo.example.com", propOrder = {
     "employeeId",
     "name",
     "department",
@@ -40,15 +40,15 @@ import jakarta.xml.bind.annotation.XmlType;
 })
 public class EmployeeInfo {
 
-    @XmlElement(namespace = "http://interfaces.soap.springboot.vkakarla.com")
+    @XmlElement(namespace = "http://interfaces.demo.example.com")
     protected long employeeId;
-    @XmlElement(namespace = "http://interfaces.soap.springboot.vkakarla.com", required = true)
+    @XmlElement(namespace = "http://interfaces.demo.example.com", required = true)
     protected String name;
-    @XmlElement(namespace = "http://interfaces.soap.springboot.vkakarla.com", required = true)
+    @XmlElement(namespace = "http://interfaces.demo.example.com", required = true)
     protected String department;
-    @XmlElement(namespace = "http://interfaces.soap.springboot.vkakarla.com", required = true)
+    @XmlElement(namespace = "http://interfaces.demo.example.com", required = true)
     protected String phone;
-    @XmlElement(namespace = "http://interfaces.soap.springboot.vkakarla.com", required = true)
+    @XmlElement(namespace = "http://interfaces.demo.example.com", required = true)
     protected String address;
 
     /**

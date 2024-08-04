@@ -30,7 +30,7 @@ public class WebServiceConfiguration extends WsConfigurerAdapter {
 		DefaultWsdl11Definition wsdl11Definition = new DefaultWsdl11Definition();
 		wsdl11Definition.setPortTypeName("vkakarlaServiceSoapHttp");
 		wsdl11Definition.setLocationUri("/vkakarlaService");
-		wsdl11Definition.setTargetNamespace("interfaces.soap.springboot.vkakarla.com");
+		wsdl11Definition.setTargetNamespace("interfaces.demo.example.com");
 		wsdl11Definition.setSchema(employeeSchema);
 		return wsdl11Definition;
 	}
